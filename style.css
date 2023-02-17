@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    min-height: 67vh;
+    font-family: 'Manrope', sans-serif;
+  
+}
+.container{
+  /* display: flex; */
+  margin: 150px auto 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 28px;
+  height: 250px;
+  width: 350px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  position: relative;
+}
+#advice-title{
+    color: hsl(150, 100%, 66%);
+    margin-bottom: 15px ;
+    letter-spacing: 0.3em;
+    font-size: 10px;
+}
+#advice-text{
+    font-weight: 700;
+   font-size: 20px;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   color: hsl(193, 38%, 86%);
+   
+}
+.line{
+    width: 50%;
+    border-top: 1px solid hsl(217, 19%, 38%);
+}
+#quote{
+    font-size: 32px;
+    margin-top: -13px;
+    padding: 0 6px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    /* line-height: 10px; */
+}
+.quotelineWrap{
+    display:flex;
+    margin-top: 33px;
+    /* background-color: white; */
+}
+#pin{
+    
+    /* right: 50%; */
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  cursor: pointer;
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    left: 42%;
+    top: 88%;
+    background-color: hsl(150, 100%, 66%);
+}
+#pin:hover{
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0px 0px 10px hsl(150, 100%, 66%); 
+    transform: translateY(-5px);
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 40px; }
+.attribution a { color: hsl(228, 45%, 44%); }
